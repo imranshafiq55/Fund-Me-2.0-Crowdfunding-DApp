@@ -1,0 +1,35 @@
+# ---------------------------
+# Foundry
+# ---------------------------
+cache/
+out/
+
+# Ignore development broadcast logs except local chain
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# ---------------------------
+# Hardhat
+# ---------------------------
+artifacts/
+typechain-types/
+
+# ---------------------------
+# Node.js
+# ---------------------------
+node_modules/
+
+# ---------------------------
+# Environment
+# ---------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------
+# Docs / Misc
+# ---------------------------
+docs/
+.DS_Store
+Thumbs.db
